@@ -1,9 +1,14 @@
-// create a simple plant creature
-// var terra = require('./js/terra.min.js');
+// terra.registerCreature({
+//   type: 'secondCreature',
+//   color: [120, 0, 240],
+//   sustainability: 6,
+//   reproduceLv: 1
+// });
 
-window.terra.registerCreature({
+// create a simple plant creature
+terra.registerCreature({
   type: 'simplePlant',
-  color: [166, 226, 46],
+  color: [166, 46, 226],
   size: 10,
   reproduceLv: 0.8,
   wait: function() { this.energy += 3; },
@@ -13,4 +18,5 @@ window.terra.registerCreature({
 // initialize our environment
 var ex1 = new terra.Terrarium(25, 25, {id: 'ex1'});
 ex1.grid = ex1.makeGridWithDistribution([['secondCreature', 10], ['simplePlant', 90]]);
-ex1.animate(300);
+
+ex1.animate(1000);
