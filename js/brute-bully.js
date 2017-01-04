@@ -20,21 +20,22 @@ terra.registerCreature({
 });
 
 terra.registerCreature({
-  type: 'brute',
-  color: [20, 10, 200],
-  maxEnergy: 40,
+  type: 'ice',
+  color: [15, 5, 249],
+  maxEnergy: 38,
   initialEnergy: 10,
-  size: 10
+  // size: 8
 });
 
 terra.registerCreature({
-  type: 'bully',
+  type: 'fire',
   color: [249, 50, 15],
+  initialEnergy: 25,
+  reproduceLv: 0.8,
+  sustainability: 1.85
   // char: "&#43",
-  initialEnergy: 24,
-  reproduceLv: 0.9,
-  sustainability: 3
+  // size: 8
 });
 
-bbTerrarium.grid = bbTerrarium.makeGridWithDistribution([['plant', 50], ['brute', 5], ['bully', 5]]);
+bbTerrarium.grid = bbTerrarium.makeGridWithDistribution([['plant', 50], ['ice', 5], ['fire', 5]]);
 bbTerrarium.animate();
