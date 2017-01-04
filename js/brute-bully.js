@@ -23,7 +23,7 @@ terra.registerCreature({
 terra.registerCreature({
   type: 'ice',
   color: [15, 5, 249],
-  maxEnergy: 39,
+  maxEnergy: 39.7,
   initialEnergy: 9.1,
   // size: 8
 });
@@ -34,7 +34,7 @@ terra.registerCreature({
   color: [249, 50, 15],
   initialEnergy: 25,
   reproduceLv: 0.8,
-  sustainability: 1.85
+  sustainability: 1.9
   // char: "&#43",
   // size: 8
 });
