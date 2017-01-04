@@ -19,14 +19,16 @@ terra.registerCreature({
   reproduceLv: 0.65
 });
 
+// was brute
 terra.registerCreature({
   type: 'ice',
   color: [15, 5, 249],
-  maxEnergy: 38,
-  initialEnergy: 10,
+  maxEnergy: 39,
+  initialEnergy: 9.4,
   // size: 8
 });
 
+// was bully
 terra.registerCreature({
   type: 'fire',
   color: [249, 50, 15],
