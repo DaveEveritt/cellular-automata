@@ -23,8 +23,8 @@ terra.registerCreature({
 terra.registerCreature({
   type: 'ice',
   color: [15, 5, 249],
-  maxEnergy: 39.7,
-  initialEnergy: 9.1,
+  maxEnergy: 39.6,
+  initialEnergy: 9.21,
   // size: 8
 });
 
@@ -32,7 +32,7 @@ terra.registerCreature({
 terra.registerCreature({
   type: 'fire',
   color: [249, 50, 15],
-  initialEnergy: 25,
+  initialEnergy: 25.5,
   reproduceLv: 0.8,
   sustainability: 1.9
   // char: "&#43",
