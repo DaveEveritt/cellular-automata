@@ -24,7 +24,7 @@ terra.registerCreature({
   type: 'ice',
   color: [15, 5, 249],
   maxEnergy: 39,
-  initialEnergy: 9.4,
+  initialEnergy: 9.1,
   // size: 8
 });
 
